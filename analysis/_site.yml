@@ -1,7 +1,7 @@
-name: "MMP_Analysis"
+name: MMP_Analysis
 output_dir: ../docs
 navbar:
-  title: "MMP_Analysis"
+  title: MMP_Analysis
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/acloudysun12/MMP_Analysis
 output:
   workflowr::wflow_html:
     toc: yes
